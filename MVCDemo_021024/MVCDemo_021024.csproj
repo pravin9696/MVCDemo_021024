@@ -97,6 +97,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\MyLoginClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +105,10 @@
     <None Include="packages.config" />
     <Content Include="Views\Student\Index.cshtml" />
     <Content Include="Views\Student\Login.cshtml" />
+    <Content Include="Views\Student\NewLogin.cshtml" />
+    <Content Include="Views\Student\xyz.cshtml" />
+    <Content Include="PPT\2 Passing Data From View To Controller.pptx" />
+    <Content Include="PPT\3 passing data from controller to View.pptx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -113,7 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

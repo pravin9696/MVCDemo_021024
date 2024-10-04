@@ -1,0 +1,25 @@
+﻿@model MVCDemo_021024.Models.MyLoginClass
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NewLogin</title>
+</head>
+<body>
+    <div>
+        @{
+            Html.BeginForm();
+        }
+        @Html.Label("Enter User ID")
+        @Html.TextBoxFor(model => model.userName)<br />
+        @Html.Label("Enter Password")
+        @Html.TextBoxFor(x => x.password)<br />
+        <input type="submit" value="submit" />
+    </div>
+</body>
+</html>
